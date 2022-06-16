@@ -1,25 +1,42 @@
 *{
-    padding: 5px
+    padding: 5px;
+    margin: auto;
 }
 
 body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
     padding: 20px;
     background-color: rgb(41, 165, 171);
+    text-align: center;
 }
 
 #main{
     /* color:whitesmoke; */
-    text-align: center;
     padding: 20px;
     width: 75%;
-    margin: 0
+    margin: 0;
+}
+
+#description{
+    margin: 0 20em 0 20em;
 }
 
 #survey-form{
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.802);
+    margin: 0% 20% 0 20%;
+    display: flex;
+    flex-direction: column;
+    
     /* float content to the left
     NOTE: It didn't work when you added float right 
         here. How to go about this is... pointing to each
         element and float them left from there. */
+}
+
+.form-group{
+    justify-content: flex-start;
 }
 

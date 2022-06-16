@@ -17,5 +17,9 @@ body{
 
 #survey-form{
     background-color: gray;
+    /* float content to the left
+    NOTE: It didn't work when you added float right 
+        here. How to go about this is... pointing to each
+        element and float them left from there. */
 }
 

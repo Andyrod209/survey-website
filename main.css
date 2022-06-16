@@ -1,4 +1,21 @@
 *{
-    background-color: black;
-    color:whitesmoke
+    padding: 5px
 }
+
+body{
+    padding: 20px;
+    background-color: rgb(41, 165, 171);
+}
+
+#main{
+    /* color:whitesmoke; */
+    text-align: center;
+    padding: 20px;
+    width: 75%;
+    margin: 0
+}
+
+#survey-form{
+    background-color: gray;
+}
+

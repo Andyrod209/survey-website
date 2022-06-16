@@ -8,6 +8,7 @@
     <title>Andrew's survey</title>
 </head>
 <body>
+    <div id="main">
     <main>
         <header>
             <h1 id="title">Andy's Survey</h1>
@@ -30,7 +31,9 @@
             <input id="number" type="number" placeholder="Age" min="5" max="140">
             <br>
             <label for="dropdown">Select what you use to get around.</label>
+            
             <br>
+
             <select id="dropdown" aria-placeholder="Choose one">
                 <option value="" disabled selected hidden>Choose a vehicle</option>
                 <option value="truck">Truck</option>
@@ -38,7 +41,9 @@
                 <option value="electric-car">Electric Car/Truck</option>
                 <option value="no-car">No Car</option>
             </select>
+            
             <br>
+            
             <label for="fav-color">Choose your favorite color:</label>
             <br>
             <input id="red" type="radio" name="fav-color" value="red">
@@ -58,6 +63,7 @@
             <br>
             <input id="yellow" type="radio" name="fav-color" value="yellow">
             <label for="yellow">Yellow</label>
+            
             <br>
             
             <label  for="what-you-have">What do you have?</label>
@@ -76,13 +82,17 @@
             <br>
             <input id="fish" type="checkbox" name="what-you-have" value="fish">
             <label for="fish">Fish</label>
+            
             <br>
-
+            <label for="comments">Write anything or share your social media account and I'll go check your 
+                profile out. Thank you for your time.</label>
+            <br>
             <textarea id="comments"></textarea>
             <br>
-            <button id="submit" type="submit">Submit</button>
+            <button id="submit" type="submit" value="Submit">Submit</button>
 
         </form>
     </main>
+    </div>
 </body>
 </html> 

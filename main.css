@@ -27,16 +27,26 @@ body{
 #survey-form{
     background-color: rgba(128, 128, 128, 0.802);
     margin: 0% 20% 0 20%;
+    padding: 2.5em;
     display: flex;
     flex-direction: column;
-    
+    justify-content: flex-start;
     /* float content to the left
     NOTE: It didn't work when you added float right 
         here. How to go about this is... pointing to each
         element and float them left from there. */
 }
 
-.form-group{
-    justify-content: flex-start;
+#survey-form p{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.input-textarea{
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    min-height: 100px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}

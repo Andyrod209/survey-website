@@ -4,24 +4,29 @@ body{
     font-weight: 400;
     line-height: 1.4;
     background: linear-gradient(rgb(41, 165, 171), #00007F);
+    
+}
+
+/* App is still not responsive figure out a way to make it. */
+#main{
+    max-width: 100%;
+    margin: 0 auto 0 auto;
+    display:flex;
+    flex-direction: column;
     text-align: center;
 }
 
-#main{
-    /* color:whitesmoke; */
-    width: 100%;
-    margin: 0 auto;
+main{
+    padding: 0 25em;
 }
 
 #description{
-    margin-inline-start: 20em;
-    margin-inline-end: 20em;
+    text-align: left;
 }
 
 #survey-form{
     background-color: rgba(128, 128, 128, 0.802);
     border: 5px solid rgba(66, 104, 106, 0.461);
-    margin: 0% 20% 0 20%;
     padding: 1.8em;
     box-shadow: 0 0 20px 0 rgba(22, 30, 31, 0.461);
 }
@@ -31,6 +36,8 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* text box is out of padding why is it out of padding?
+    Task: figure out to align textbox with all content inside of survey-form. */
 .input-textarea{
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
@@ -46,11 +53,12 @@ label{
     margin-bottom: 0.3rem;
 }
 
+/* radio and checkbox inputs were damage after adding float left
+    TASK: Figure out how to repair damage. */
 input{
     float: left;
     width: 100%;
 }
-
 
 button{
     min-height:40px;

@@ -10,7 +10,6 @@
 <body>
     <main>
         <header>
-            <div id="main">
             <h1 id="title">Andy's Survey</h1>
             <p id="description">This is a fun survey created by Andrew 
                 Rodriguez. The purpose of this survey is to showcase my 
@@ -18,7 +17,8 @@
                 and please do give feedback. Thank you :)</p>
         </header>
         <form id="survey-form">
-            <div class="form-group">
+            <!-- user personal info -->
+            <fieldset>
                 <label id="name-label" for="name">Full Name:</label>
                 <br>
                 <input id="name" type="text" placeholder="Enter your name">
@@ -32,11 +32,11 @@
                 <input id="number" type="number" placeholder="Age" min="5" max="140">
                 <br>
                 <label for="dropdown">Select what you use to get around.</label>
-            </div>
+            </fieldset>
             
             <br>
-            
-            <div class="form-group">
+            <!-- vechicle they use  -->
+            <fieldset>
                 <select id="dropdown" aria-placeholder="Choose one">
                     <option value="" disabled selected hidden>Choose a vehicle</option>
                     <option value="truck">Truck</option>
@@ -44,76 +44,76 @@
                     <option value="electric-car">Electric Car/Truck</option>
                     <option value="no-car">No Car</option>
                 </select>
-            </div>
-
-            <br>
+            </fieldset>
             
-            <div class="form-group">
+            <br>
+            <!-- favorite color -->
+            <fieldset>
                 <label for="fav-color">Choose your favorite color:</label>
                 <br>
-                <label for="red">Red
-                <input id="red" type="radio" name="fav-color" value="red">
+                <label for="red">
+                <input class="inline" id="red" type="radio" name="fav-color" value="red">Red
                 </label>
                 <br>
-                <label for="blue">Blue
-                    <input id="blue" type="radio" name="fav-color" value="blue">
-                <br>
-                <label for="green">Green</label>
-                    <input id="green" type="radio" name="fav-color" value="green">
+                <label for="blue">
+                    <input class="inline" id="blue" type="radio" name="fav-color" value="blue">Blue
                 </label>
                 <br>
-                <label for="pink">Pink
-                    <input id="pink" type="radio" name="fav-color" value="pink">
+                <label for="green">
+                    <input class="inline" id="green" type="radio" name="fav-color" value="green">Green
                 </label>
                 <br>
-                <label for="purple">purple
-                    <input id="purple" type="radio" name="fav-color" value="purple">
+                <label for="pink">
+                    <input class="inline" id="pink" type="radio" name="fav-color" value="pink">Pink
                 </label>
                 <br>
-                <label for="yellow">Yellow
-                    <input id="yellow" type="radio" name="fav-color" value="yellow">
-                </label>    
-            </div>
-
-            <br>
+                <label for="purple">
+                    <input class="inline" id="purple" type="radio" name="fav-color" value="purple">purple
+                </label>
+                <br>
+                <label for="yellow">
+                    <input class="inline" id="yellow" type="radio" name="fav-color" value="yellow">Yellow
+                </label>  
+                </fieldset>         
             
-            <div class="form-group">
+            <br>
+            <!-- what items does user have -->
+            <fieldset>
                 <label  for="what-you-have">What do you have?</label>
                 <br>
-                <label for="dog">Dog
-                    <input id="dog" type="checkbox" name="what-you-have" value="dog">
+                <label for="dog">
+                    <input class="inline" id="dog" type="checkbox" name="what-you-have" value="dog">Dog
                 </label>
                 <br>
-                <label for="cat">Cat
-                    <input id="cat" type="checkbox" name="what-you-have" value="cat">
+                <label for="cat">
+                    <input class="inline" id="cat" type="checkbox" name="what-you-have" value="cat">Cat
                 </label>
                 <br>
-                <label for="donkey">Donkey</label>
-                    <input id="donkey" type="checkbox" name="what-you-have" value="donkey">
+                <label for="donkey">
+                    <input class="inline" id="donkey" type="checkbox" name="what-you-have" value="donkey">Donkey
                 </label>
                 <br>
-                <label for="chicken">Chicken</label>
-                    <input id="chicken" type="checkbox" name="what-you-have" value="chicken">
+                <label for="chicken">
+                    <input class="inline" id="chicken" type="checkbox" name="what-you-have" value="chicken">Chicken
                 </label>
                 <br>
-                <label for="fish">Fish</label>
-                    <input id="fish" type="checkbox" name="what-you-have" value="fish">
+                <label for="fish">
+                    <input class="inline" id="fish" type="checkbox" name="what-you-have" value="fish">Fish
                 </label>
-            </div>
+            </fieldset>
             
             <br>
-            
-            <div class="form-group">
+            <!-- user comment -->
+            <fieldset>
                 <label for="comments">Write anything or share your social media account and I'll go check your 
                     profile out. Thank you for your time.</label>
                 <br>
-                <textarea id="comments" class="input-textarea" placeholder="Enter your comment here"></textarea>
+                <textarea id="comments" class="input-textarea" placeholder="Enter your comment here" rows="3" cols="30"></textarea>
                 <br>
-                <button id="submit" type="submit" value="Submit">Submit</button>
-            </div>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit" placeholder="Submit">
 
         </form>
-    </div>
     </main>
 </body>
 </html> 

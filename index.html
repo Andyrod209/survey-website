@@ -10,7 +10,6 @@
 <body>
     <main>
         <header>
-            <div id="main">
             <h1 id="title">Andy's Survey</h1>
             <p id="description">This is a fun survey created by Andrew 
                 Rodriguez. The purpose of this survey is to showcase my 
@@ -18,102 +17,101 @@
                 and please do give feedback. Thank you :)</p>
         </header>
         <form id="survey-form">
-            <div class="form-group">
-                <label id="name-label" for="name">Full Name:</label>
-                <br>
-                <input id="name" type="text" placeholder="Enter your name">
-                <br>
-                <label id="email-label" for="email">Email:</label>
-                <br>
-                <input id="email" type="email" placeholder="Enter your email">
-                <br>
-                <label id="number-label" for="number">Age:</label>
-                <br>
-                <input id="number" type="number" placeholder="Age" min="5" max="140">
-                <br>
-                <label for="dropdown">Select what you use to get around.</label>
-            </div>
+            <fieldset>
+            <label id="name-label" for="name">Full Name:</label>
+            <br>
+            <input id="name" type="text" placeholder="Enter your name">
+            <br>
+            <label id="email-label" for="email">Email:</label>
+            <br>
+            <input id="email" type="email" placeholder="Enter your email">
+            <br>
+            <label id="number-label" for="number">Age:</label>
+            <br>
+            <input id="number" type="number" placeholder="Age" min="5" max="140">
+            <br>
+            <label for="dropdown">Select what you use to get around.</label>
+            </fieldset>
             
             <br>
             
-            <div class="form-group">
-                <select id="dropdown" aria-placeholder="Choose one">
-                    <option value="" disabled selected hidden>Choose a vehicle</option>
-                    <option value="truck">Truck</option>
-                    <option value="car">Car</option>
-                    <option value="electric-car">Electric Car/Truck</option>
-                    <option value="no-car">No Car</option>
-                </select>
-            </div>
-
-            <br>
-            
-            <div class="form-group">
-                <label for="fav-color">Choose your favorite color:</label>
-                <br>
-                <label for="red">Red
-                <input id="red" type="radio" name="fav-color" value="red">
-                </label>
-                <br>
-                <label for="blue">Blue
-                    <input id="blue" type="radio" name="fav-color" value="blue">
-                <br>
-                <label for="green">Green</label>
-                    <input id="green" type="radio" name="fav-color" value="green">
-                </label>
-                <br>
-                <label for="pink">Pink
-                    <input id="pink" type="radio" name="fav-color" value="pink">
-                </label>
-                <br>
-                <label for="purple">purple
-                    <input id="purple" type="radio" name="fav-color" value="purple">
-                </label>
-                <br>
-                <label for="yellow">Yellow
-                    <input id="yellow" type="radio" name="fav-color" value="yellow">
-                </label>    
-            </div>
-
-            <br>
-            
-            <div class="form-group">
-                <label  for="what-you-have">What do you have?</label>
-                <br>
-                <label for="dog">Dog
-                    <input id="dog" type="checkbox" name="what-you-have" value="dog">
-                </label>
-                <br>
-                <label for="cat">Cat
-                    <input id="cat" type="checkbox" name="what-you-have" value="cat">
-                </label>
-                <br>
-                <label for="donkey">Donkey</label>
-                    <input id="donkey" type="checkbox" name="what-you-have" value="donkey">
-                </label>
-                <br>
-                <label for="chicken">Chicken</label>
-                    <input id="chicken" type="checkbox" name="what-you-have" value="chicken">
-                </label>
-                <br>
-                <label for="fish">Fish</label>
-                    <input id="fish" type="checkbox" name="what-you-have" value="fish">
-                </label>
-            </div>
+            <fieldset>
+            <select id="dropdown" aria-placeholder="Choose one">
+                <option value="" disabled selected hidden>Choose a vehicle</option>
+                <option value="truck">Truck</option>
+                <option value="car">Car</option>
+                <option value="electric-car">Electric Car/Truck</option>
+                <option value="no-car">No Car</option>
+            </select>
+            </fieldset>
             
             <br>
             
-            <div class="form-group">
-                <label for="comments">Write anything or share your social media account and I'll go check your 
-                    profile out. Thank you for your time.</label>
-                <br>
-                <textarea id="comments" class="input-textarea" placeholder="Enter your comment here"></textarea>
-                <br>
-                <button id="submit" type="submit" value="Submit">Submit</button>
-            </div>
+            <fieldset>
+            <label for="fav-color">Choose your favorite color:</label>
+            <br>
+            <label for="red">Red
+            <input id="red" type="radio" name="fav-color" value="red">
+            </label>
+            <br>
+            <label for="blue">Blue
+                <input id="blue" type="radio" name="fav-color" value="blue">
+            <br>
+            <label for="green">Green</label>
+                <input id="green" type="radio" name="fav-color" value="green">
+            </label>
+            <br>
+            <label for="pink">Pink
+                <input id="pink" type="radio" name="fav-color" value="pink">
+            </label>
+            <br>
+            <label for="purple">purple
+                <input id="purple" type="radio" name="fav-color" value="purple">
+            </label>
+            <br>
+            <label for="yellow">Yellow
+                <input id="yellow" type="radio" name="fav-color" value="yellow">
+            </label>  
+            </fieldset>         
+            
+            <br>
+            
+            <fieldset>
+            <label  for="what-you-have">What do you have?</label>
+            <br>
+            <label for="dog">Dog
+                <input id="dog" type="checkbox" name="what-you-have" value="dog">
+            </label>
+            <br>
+            <label for="cat">Cat
+                <input id="cat" type="checkbox" name="what-you-have" value="cat">
+            </label>
+            <br>
+            <label for="donkey">Donkey</label>
+                <input id="donkey" type="checkbox" name="what-you-have" value="donkey">
+            </label>
+            <br>
+            <label for="chicken">Chicken</label>
+                <input id="chicken" type="checkbox" name="what-you-have" value="chicken">
+            </label>
+            <br>
+            <label for="fish">Fish</label>
+                <input id="fish" type="checkbox" name="what-you-have" value="fish">
+            </label>
+            </fieldset>
+            
+            <br>
+            
+            <fieldset>
+            <label for="comments">Write anything or share your social media account and I'll go check your 
+                profile out. Thank you for your time.</label>
+            <br>
+            <textarea id="comments" class="input-textarea" placeholder="Enter your comment here"></textarea>
+            <br>
+            </fieldset>
+            <button id="submit" type="submit" value="Submit">Submit</button>
 
         </form>
-    </div>
     </main>
 </body>
 </html> 

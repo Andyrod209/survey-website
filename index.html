@@ -17,97 +17,98 @@
                 and please do give feedback. Thank you :)</p>
         </header>
         <form id="survey-form">
+            <!-- user personal info -->
             <fieldset>
-            <label id="name-label" for="name">Full Name:</label>
-            <br>
-            <input id="name" type="text" placeholder="Enter your name">
-            <br>
-            <label id="email-label" for="email">Email:</label>
-            <br>
-            <input id="email" type="email" placeholder="Enter your email">
-            <br>
-            <label id="number-label" for="number">Age:</label>
-            <br>
-            <input id="number" type="number" placeholder="Age" min="5" max="140">
-            <br>
-            <label for="dropdown">Select what you use to get around.</label>
+                <label id="name-label" for="name">Full Name:</label>
+                <br>
+                <input id="name" type="text" placeholder="Enter your name">
+                <br>
+                <label id="email-label" for="email">Email:</label>
+                <br>
+                <input id="email" type="email" placeholder="Enter your email">
+                <br>
+                <label id="number-label" for="number">Age:</label>
+                <br>
+                <input id="number" type="number" placeholder="Age" min="5" max="140">
+                <br>
+                <label for="dropdown">Select what you use to get around.</label>
             </fieldset>
             
             <br>
-            
+            <!-- vechicle they use  -->
             <fieldset>
-            <select id="dropdown" aria-placeholder="Choose one">
-                <option value="" disabled selected hidden>Choose a vehicle</option>
-                <option value="truck">Truck</option>
-                <option value="car">Car</option>
-                <option value="electric-car">Electric Car/Truck</option>
-                <option value="no-car">No Car</option>
-            </select>
+                <select id="dropdown" aria-placeholder="Choose one">
+                    <option value="" disabled selected hidden>Choose a vehicle</option>
+                    <option value="truck">Truck</option>
+                    <option value="car">Car</option>
+                    <option value="electric-car">Electric Car/Truck</option>
+                    <option value="no-car">No Car</option>
+                </select>
             </fieldset>
             
             <br>
-            
+            <!-- favorite color -->
             <fieldset>
-            <label for="fav-color">Choose your favorite color:</label>
-            <br>
-            <label for="red">
-            <input id="red" type="radio" name="fav-color" value="red">Red
-            </label>
-            <br>
-            <label for="blue">
-                <input id="blue" type="radio" name="fav-color" value="blue">Blue
-            <br>
-            <label for="green">
-                <input id="green" type="radio" name="fav-color" value="green">Green
-            </label>
-            <br>
-            <label for="pink">
-                <input id="pink" type="radio" name="fav-color" value="pink">Pink
-            </label>
-            <br>
-            <label for="purple">
-                <input id="purple" type="radio" name="fav-color" value="purple">purple
-            </label>
-            <br>
-            <label for="yellow">
-                <input id="yellow" type="radio" name="fav-color" value="yellow">Yellow
-            </label>  
-            </fieldset>         
+                <label for="fav-color">Choose your favorite color:</label>
+                <br>
+                <label for="red">
+                <input id="red" type="radio" name="fav-color" value="red">Red
+                </label>
+                <br>
+                <label for="blue">
+                    <input id="blue" type="radio" name="fav-color" value="blue">Blue
+                <br>
+                <label for="green">
+                    <input id="green" type="radio" name="fav-color" value="green">Green
+                </label>
+                <br>
+                <label for="pink">
+                    <input id="pink" type="radio" name="fav-color" value="pink">Pink
+                </label>
+                <br>
+                <label for="purple">
+                    <input id="purple" type="radio" name="fav-color" value="purple">purple
+                </label>
+                <br>
+                <label for="yellow">
+                    <input id="yellow" type="radio" name="fav-color" value="yellow">Yellow
+                </label>  
+                </fieldset>         
             
             <br>
-            
+            <!-- what items does user have -->
             <fieldset>
-            <label  for="what-you-have">What do you have?</label>
-            <br>
-            <label for="dog">
-                <input id="dog" type="checkbox" name="what-you-have" value="dog">Dog
-            </label>
-            <br>
-            <label for="cat">
-                <input id="cat" type="checkbox" name="what-you-have" value="cat">Cat
-            </label>
-            <br>
-            <label for="donkey">
-                <input id="donkey" type="checkbox" name="what-you-have" value="donkey">Donkey
-            </label>
-            <br>
-            <label for="chicken">
-                <input id="chicken" type="checkbox" name="what-you-have" value="chicken">Chicken
-            </label>
-            <br>
-            <label for="fish">
-                <input id="fish" type="checkbox" name="what-you-have" value="fish">Fish
-            </label>
+                <label  for="what-you-have">What do you have?</label>
+                <br>
+                <label for="dog">
+                    <input id="dog" type="checkbox" name="what-you-have" value="dog">Dog
+                </label>
+                <br>
+                <label for="cat">
+                    <input id="cat" type="checkbox" name="what-you-have" value="cat">Cat
+                </label>
+                <br>
+                <label for="donkey">
+                    <input id="donkey" type="checkbox" name="what-you-have" value="donkey">Donkey
+                </label>
+                <br>
+                <label for="chicken">
+                    <input id="chicken" type="checkbox" name="what-you-have" value="chicken">Chicken
+                </label>
+                <br>
+                <label for="fish">
+                    <input id="fish" type="checkbox" name="what-you-have" value="fish">Fish
+                </label>
             </fieldset>
             
             <br>
-            
+            <!-- user comment -->
             <fieldset>
-            <label for="comments">Write anything or share your social media account and I'll go check your 
-                profile out. Thank you for your time.</label>
-            <br>
-            <textarea id="comments" class="input-textarea" placeholder="Enter your comment here"></textarea>
-            <br>
+                <label for="comments">Write anything or share your social media account and I'll go check your 
+                    profile out. Thank you for your time.</label>
+                <br>
+                <textarea id="comments" class="input-textarea" placeholder="Enter your comment here"></textarea>
+                <br>
             </fieldset>
             <button id="submit" type="submit" value="Submit">Submit</button>
 

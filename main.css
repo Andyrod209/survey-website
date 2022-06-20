@@ -13,6 +13,8 @@ html {
 body {
     width: 100%;
     min-height: 100vh;
+    background-color: #1b1b32;
+	color: #f5f6f7;
 }
 
 h1, p {
@@ -25,6 +27,7 @@ form {
     max-width: 500px;
     min-width: 500px;
     margin: 0 auto;
+    padding: 0 0 2em 0;
 }
 
 fieldset {
@@ -38,7 +41,7 @@ fieldset:not(last-of-type) {
 
 label {
     display: block;
-    margin: 0.5rem 0;
+    margin: 0.3rem 0;
 }
 
 input, textarea, select {
@@ -63,4 +66,9 @@ input, textarea {
     display: block;
     width: 60%;
     margin: 0 auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
 }
